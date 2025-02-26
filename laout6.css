@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: gray;
+    height: 400px;
+    flex-basis: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+   
+   
+
+}
+.box1{
+    background-color: rgb(99, 241, 99);
+    height: 25%;
+    flex-basis: 100%;
+    margin: 5px;
+    
+}
+.box2{    
+    height: 74%;
+    flex-basis: 15%;
+  
+   flex-wrap: wrap;
+   gap: 5px;
+   
+   
+}
+.c-box1{
+    background-color: rgb(10, 130, 211);
+    height: 30%;
+    margin: 5px;
+    flex-basis: 25%;
+    
+    
+}
+.c-box2{
+    background-color: rgb(10, 130, 211);
+    height: 63%;
+    margin: 5px;
+}
+.box3{
+    
+    flex-basis: 15%;
+    flex-wrap: wrap;
+    
+}
+.c-box3{
+    background-color:rgb(99, 241, 99) ;
+    height: 30%;
+    margin: 5px;
+}
+.c-box4{
+    background-color: rgb(99, 241, 99);
+    height: 30%;
+    margin: 5px;
+}
+.c-box5{
+    background-color: red;
+    height: 30%;
+    margin: 5px;
+}
+.box4{
+   
+    height: 48%;
+    flex-basis: 70%;
+    display: flex;
+
+}
+.c-box6{
+    background-color: red;
+    flex-basis: 75%;
+    margin: 5px;
+    height: 75%;
+}
+.c-box7{
+    background-color: rgb(10, 130, 211);
+    flex-basis: 30%;
+    margin: 5px;
+    height: 75%;
+    
+}
+.box5{
+    
+    height: 20%;
+    flex-basis:70% ;
+    display: flex;
+    gap: 5px;
+}
+.c-box8{
+    background-color: red;
+    height: 30;
+    flex-basis: 30%;
+}
+.c-box9{
+    background-color: red;
+    flex-basis: 30%;
+}
+.c-box10{
+    background-color: rgb(99, 241, 99) ;
+    flex-basis: 40%;
+
+}

@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: gray;
+    height: 400px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    gap: 5px;
+  
+}
+.box1{
+    height: 100%;
+    flex-basis: 25%;
+    flex-wrap: wrap;    
+    gap: 5px;
+
+}
+.c-box1{
+    background-color: red;
+    flex-basis: 25%;
+    height: 48%;    
+    margin: 5px;
+}
+.c-box2{
+    background-color: white;
+    flex-basis: 25%;
+    height: 48%;    
+    margin: 5px;
+}
+.box2{
+    background-color: blue;
+    flex-basis: 72%;
+    gap: 8px;
+    margin: 5px;
+    flex-wrap: wrap;
+    display: flex;
+}
+.c-box3{
+    background-color: aqua;
+    height: 31%;
+    flex-basis: 49%;
+}
+.c-box4{
+    background-color: orange;
+    gap: 5px;
+    height: 31%;
+    flex-basis: 49%;
+}
+.c-box5{
+    background-color: orange;
+    height: 35%;
+    flex-basis: 30%;
+}
+.c-box6{
+    background-color: white;
+    height: 35%;
+    flex-basis:40% ;
+
+}
+.c-box7{
+    background-color: red;
+    height: 35%;
+    flex-basis: 26.1%;
+}
+.c-box8{
+    background-color: red;
+    height: 30%;
+    flex-basis: 45%;
+}
+.c-box9{
+    background-color: aqua; 
+    flex-basis: 25%;
+}
+.c-box10{
+    background-color: red;
+    flex-basis: 26.1%;
+    height: 30%;
+}
+
+
